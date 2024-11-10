@@ -2,8 +2,8 @@
 import time
 "inputs"
 input1 = input()
-input12 = int(input())
-input22 = int(input())
+input12 = float(input())
+input22 = float(input())
 "calculate"
 if input1 == "add":
     ans = input12 + input22
