@@ -1,3 +1,6 @@
+#half working 3d renderer
+#pretty unoptimized
+#im not that good
 import pygame as pg
 import numpy as np
 def load_vertices_from_obj(file_path):
@@ -10,9 +13,9 @@ def load_vertices_from_obj(file_path):
                 vertices.append(vertex)
     return vertices
 
-#press d to start
-pg.init()
 
+pg.init()
+#put model location
 #vertices = load_vertices_from_obj('monkey.obj')
 screen = pg.display.set_mode((800, 600),pg.RESIZABLE)
 done = False
